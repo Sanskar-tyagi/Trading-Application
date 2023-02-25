@@ -42,7 +42,7 @@ watch the results in the right.
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
+Our Platform uses a number of open source projects to work properly:
 
 - [React Js](https://reactjs.org/) -framework used for the FrontEnd
 - [MongoDB](https://www.mongodb.com/) - The awesome database used
