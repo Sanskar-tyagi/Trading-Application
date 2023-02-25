@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Trading Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## _using MERN Stack and Finnhub API_
 
-## Available Scripts
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-In the project directory, you can run:
+This trading platform is built using the MERN stack (MongoDB, Express, React, and Node.js) and uses the Finnhub API to gather stock market data. The application consists of a backend and a frontend, which are deployed separately. The backend is deployed on Render, and the frontend is deployed on Netlify. The application has three pages: login, signup, and the main page. Firebase is used for authentication.
 
-### `npm start`
+## ✨Features ✨
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Authentication
+- Main Page
+- Charts
+- Search
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Usage
 
-### `npm test`
+Before using the platform, you need to create an account. Click on the Signup button and enter your email address and password. If you already have an account, click on the Login button and enter your credentials.
+After logging in, you will be redirected to the main page. The main page consists of two sections: a chart and a search feature.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Charts
 
-### `npm run build`
+The chart displays the historical data for a stock. You can select a stock by entering its symbol in the search bar and clicking on the Search button. The chart will display the data for the selected stock. The tool also allows the user to filter the stocks on the basis of Month Day Week And year to gather high information about the stocks to help them with their Investment Research.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Search
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Search
+The search feature allows you to search for any stock listed on the market. Enter the stock symbol in the search bar and click on the Search button. The search results will display the stocks name, exchange,currency, IPO date ,Market Capitalization and Industry to Gather all the Research.
+As [John Gruber] writes on the [Markdown site][df1]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> The overriding design goal for Markdown's
+> formatting syntax is to make it as readable
+> as possible. The idea is that a
+> Markdown-formatted document should be
+> publishable as-is, as plain text, without
+> looking like it's been marked up with tags
+> or formatting instructions.
 
-### `npm run eject`
+This text you see here is \*actually- written in Markdown! To get a feel
+for Markdown's syntax, type some text into the left window and
+watch the results in the right.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Dillinger uses a number of open source projects to work properly:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [React Js](https://reactjs.org/) -framework used for the FrontEnd
+- [MongoDB](https://www.mongodb.com/) - The awesome database used
+- [FinnHub API](https://finnhub.io/) - API used to gather stock market data
+- [FireBase](https://firebase.google.com/) - The great authentication provider
+- [node.js] - evented I/O for the backend
+- [Express] - fast node.js network app framework [@tjholowaychuk]
+- [Render](https://dashboard.render.com/) - the Web Service System.
+- [Netlify](https://app.netlify.com/) - The hosting provider used for the frontend
+- [TailWind] - duh :)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+And of course TradingApp itself is open source with a [public repository]()
+on GitHub.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+MIT
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Free Software, Hell Yeah!**
