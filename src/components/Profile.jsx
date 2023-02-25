@@ -1,13 +1,15 @@
 import axios from "axios";
-import {React, useState, useEffect} from "react";
+import { React, useState, useEffect } from "react";
 import styled from "styled-components";
 
 export default function Profile(props) {
-
   const [balance, setBalance] = useState(0);
   const getUserBalance = async () => {
     try {
-      const response = await axios.post('http://localhost:8080/getUserBalance', { username: props.username });
+      const response = await axios.post(
+        "https://tradingapp.onrender.com/getUserBalance",
+        { username: props.username }
+      );
       console.log(response.data);
       setBalance(response.data.balance);
     } catch (error) {

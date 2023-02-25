@@ -42,7 +42,10 @@ export default function Signup(props) {
       }, 1300);
       isLoad(false);
       axios
-        .post("http://localhost:8080/saveDetails", { userName, email })
+        .post("https://tradingapp.onrender.com/saveDetails", {
+          userName,
+          email,
+        })
         .then((response) => {
           console.log("Username saved successfully");
         })
